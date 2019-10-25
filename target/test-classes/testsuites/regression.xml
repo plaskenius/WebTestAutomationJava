@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Tests">
+    <listeners>
+        <listener class-name="com.volvo.project.components.XrayListener"/>
+    </listeners>
+    <test verbose="2" name="all tests in the project">
+        <groups>
+            <run>
+                <!--<exclude name="brokenTests" />-->
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.volvo.project.tests.TestSuiteExampleTest"/>
+            <class name="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest"/>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="classes">
+    <listeners>
+        <listener class-name="com.volvo.project.components.XrayListener"/>
+    </listeners>
+    <test name="Login/Logout Tests on IE8 win7">
+        <parameter name="platform" value="WIN8"/>
+        <parameter name="browserSelected" value="Internet Explorer"/>
+        <parameter name="version" value="8"/>
+        <parameter name="url" value="http://secure-qa.volvo.com/BaldoWeb/actions/"/>
+        <classes>
+            <class name="com.volvo.project.tests.TestSuiteExampleTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Login/Logout Tests on firefox Win8">
+        <parameter name="platform" value="VISTA"/>
+        <parameter name="browserSelected" value="Firefox"/>
+        <parameter name="version" value="28"/>
+        <parameter name="url" value="http://secure-qa.volvo.com/BaldoWeb/actions/"/>
+        <classes>
+            <class name="com.volvo.project.tests.TestSuiteExampleTest">
+            </class>
+        </classes>
+    </test>
+</suite>

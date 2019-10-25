@@ -1,0 +1,148 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 16, Errors: 0, Skipped: 0, Time elapsed: 544.413 sec <<< FAILURE! - in TestSuite
+connectingToDataBase(com.volvo.project.tests.TestSuiteExampleTest)  Time elapsed: 2.783 sec  <<< FAILURE!
+java.sql.SQLException: 
+ORA-01017: invalid username/password; logon denied
+
+	at com.volvo.project.tests.TestSuiteExampleTest.connectingToDataBase(TestSuiteExampleTest.java:39)
+
+searchingInformationInLogs(com.volvo.project.tests.TestSuiteExampleTest)  Time elapsed: 25.676 sec  <<< FAILURE!
+java.io.FileNotFoundException: \\segotx813.vcn.ds.volvo.net\wp1200_dsfs_1001_q1000m$\baldo\VLDGOT02_NODE01_BALDO\logs\baldo_app.log (The network path was not found)
+	at com.volvo.project.tests.TestSuiteExampleTest.searchingInformationInLogs(TestSuiteExampleTest.java:65)
+
+sendingMessagesViaMQExplorer(com.volvo.project.tests.TestSuiteExampleTest)  Time elapsed: 3.216 sec  <<< FAILURE!
+java.io.FileNotFoundException: \\segotx813.vcn.ds.volvo.net\wp1200_dsfs_1001_q1000m$\baldo\VLDGOT02_NODE01_BALDO\logs\baldo_app.log (The network path was not found)
+	at com.volvo.project.tests.TestSuiteExampleTest.sendingMessagesViaMQExplorer(TestSuiteExampleTest.java:31)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 13.422 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 16.336 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 14.737 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 14.667 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 14.545 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 14.455 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 13.781 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 13.91 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 13.917 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 13.809 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 13.878 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 14.231 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+
+successfulLoginArrayDataProviderTest(com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest)  Time elapsed: 14.927 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+

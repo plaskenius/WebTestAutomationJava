@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Tests on Sauce" thread-count="20" parallel="methods" data-provider-thread-count="20">
+    <listeners>
+        <listener class-name="com.volvo.project.components.XrayListener"/>
+    </listeners>
+    <test verbose="2" name="Smoke Tests on SauceLabs">
+        <classes>
+            <class name="com.volvo.project.tests.TestSuiteExampleTest">
+                <methods>
+                    <!--  <include name="sendingMessagesViaMQExplorer"></include> -->
+                    <!--<include name="login"></include>-->
+                </methods>
+            </class>
+            <class name="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest"/>
+        </classes>
+    </test>
+</suite>

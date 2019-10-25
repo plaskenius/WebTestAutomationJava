@@ -1,0 +1,194 @@
+2018-10-12 14:52:07 INFO  TestLog: HTTP @ pxgot4.srv.volvo.com/153.112.38.10:8080
+2018-10-12 14:52:07 INFO  TestLog: -------------------------------------------------------
+2018-10-12 14:52:07 INFO  TestLog: Execution of tests from InternetTestSuiteDataProviderExampleLoginTest class started
+2018-10-12 14:52:07 INFO  TestLog: -------------------------------------------------------
+2018-10-12 14:52:08 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:52:08 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:52:08 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:52:26 INFO  TestLog: Test successfulLoginArrayDataProviderTest (tomsmith,SuperSecretPassword!) finished --> PASSED
+2018-10-12 14:52:26 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:52:26 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:52:27 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:52:27 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:52:27 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:52:47 INFO  TestLog: User tomsmith1 has not been authorized
+2018-10-12 14:52:47 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:52:47 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith1,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:52:47 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:52:47 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:52:48 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:52:48 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:52:48 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:53:09 INFO  TestLog: User tomsmith2 has not been authorized
+2018-10-12 14:53:10 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:53:10 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith2,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:53:10 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:53:10 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:53:10 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:53:10 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:53:10 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:53:29 INFO  TestLog: User tomsmith3 has not been authorized
+2018-10-12 14:53:29 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:53:29 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith3,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:53:29 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:53:29 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:53:30 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:53:30 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:53:30 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:53:49 INFO  TestLog: User tomsmith4 has not been authorized
+2018-10-12 14:53:50 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:53:50 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith4,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:53:50 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:53:50 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:53:51 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:53:51 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:53:51 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:54:12 INFO  TestLog: User tomsmith5 has not been authorized
+2018-10-12 14:54:12 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:54:12 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith5,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:54:12 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:54:12 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:54:13 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:54:13 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:54:13 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:54:32 INFO  TestLog: User tomsmith6 has not been authorized
+2018-10-12 14:54:32 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:54:32 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith6,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:54:32 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:54:32 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:54:33 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:54:33 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:54:33 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:54:51 INFO  TestLog: User tomsmith7 has not been authorized
+2018-10-12 14:54:51 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:54:51 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith7,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:54:51 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:54:51 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:54:52 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:54:52 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:54:52 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:55:10 INFO  TestLog: User tomsmith8 has not been authorized
+2018-10-12 14:55:10 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:55:10 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith8,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:55:10 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:55:10 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:55:11 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:55:11 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:55:11 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:55:29 INFO  TestLog: User tomsmith9 has not been authorized
+2018-10-12 14:55:29 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:55:29 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith9,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:55:29 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:55:29 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:55:30 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:55:30 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:55:30 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:55:48 INFO  TestLog: User tomsmith10 has not been authorized
+2018-10-12 14:55:48 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:55:48 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith10,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:55:48 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:55:48 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:55:49 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:55:49 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:55:49 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:56:07 INFO  TestLog: User tomsmith11 has not been authorized
+2018-10-12 14:56:08 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:56:08 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith11,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:56:08 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:56:08 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:56:09 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:56:09 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:56:09 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:56:27 INFO  TestLog: User tomsmith12 has not been authorized
+2018-10-12 14:56:28 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:56:28 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith12,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:56:28 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:56:28 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:56:28 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:56:28 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 14:56:28 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:56:46 INFO  TestLog: User tomsmith13 has not been authorized
+2018-10-12 14:56:47 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 14:56:47 ERROR TestLog: Test successfulLoginArrayDataProviderTest (tomsmith13,SuperSecretPass$#@) finished --> FAILED
+2018-10-12 14:56:47 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:56:47 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:56:47 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:56:47 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:56:47 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:57:05 INFO  TestLog: User A123 has not been authorized
+2018-10-12 14:57:05 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (,col4) finished --> PASSED
+2018-10-12 14:57:05 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:57:05 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:57:06 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:57:06 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:57:06 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:57:25 INFO  TestLog: User M960 has not been authorized
+2018-10-12 14:57:25 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (col3,) finished --> PASSED
+2018-10-12 14:57:25 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:57:25 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:57:26 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:57:26 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:57:26 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:57:44 INFO  TestLog: User M961 has not been authorized
+2018-10-12 14:57:44 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (,col4) finished --> PASSED
+2018-10-12 14:57:44 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:57:44 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:57:45 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:57:45 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:57:45 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:58:03 INFO  TestLog: User M962 has not been authorized
+2018-10-12 14:58:03 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (col3,) finished --> PASSED
+2018-10-12 14:58:03 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:58:03 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:58:04 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:58:04 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:58:04 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:58:23 INFO  TestLog: User A124 has not been authorized
+2018-10-12 14:58:23 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (,col4) finished --> PASSED
+2018-10-12 14:58:23 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:58:23 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:58:24 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:58:24 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:58:24 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:58:42 INFO  TestLog: User M963 has not been authorized
+2018-10-12 14:58:42 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (col3,) finished --> PASSED
+2018-10-12 14:58:42 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:58:42 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:58:43 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:58:43 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:58:43 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:03 INFO  TestLog: User M964 has not been authorized
+2018-10-12 14:59:03 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (,col4) finished --> PASSED
+2018-10-12 14:59:03 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:59:03 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:59:04 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:04 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:59:04 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:22 INFO  TestLog: User M965 has not been authorized
+2018-10-12 14:59:22 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (col3,) finished --> PASSED
+2018-10-12 14:59:22 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:59:22 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:59:23 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:23 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:59:23 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:41 INFO  TestLog: User A125 has not been authorized
+2018-10-12 14:59:41 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (,col4) finished --> PASSED
+2018-10-12 14:59:41 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:59:41 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 14:59:42 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:42 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 14:59:42 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 14:59:59 INFO  TestLog: User M966 has not been authorized
+2018-10-12 14:59:59 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (col3,) finished --> PASSED
+2018-10-12 14:59:59 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 14:59:59 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 15:00:01 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 15:00:01 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest started
+2018-10-12 15:00:01 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 15:00:23 INFO  TestLog: User M967 has not been authorized
+2018-10-12 15:00:23 INFO  TestLog: Test unsuccessLogiExcelDataProviderTabTest (,col4) finished --> PASSED
+2018-10-12 15:00:23 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 15:00:23 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 15:00:24 INFO  TestLog: -------------------------------------------------------
+2018-10-12 15:00:24 INFO  TestLog: Execution of tests from InternetTestSuiteDataProviderExampleLoginTest class finished
+2018-10-12 15:00:24 INFO  TestLog: -------------------------------------------------------

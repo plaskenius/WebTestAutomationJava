@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="544.413" tests="28" errors="0" skipped="0" failures="16">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\tcoeGITRepo\selJava\tcoeFrameworkJava"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\tcoeGITRepo\selJava\tcoeFrameworkJava"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\a049473\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\JavaDev32\tools\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\app\a049473\product\11.2.0\client_1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;C:\Users\a049473\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\gitTCOE\TCoE_RobotFramework\Resources\Drivers;C:\Program Files (x86)\NUnit.org\nunit-console;C:\Program Files\nodejs\;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Users\a049473\.dnx\bin;C:\Users\a049473\AppData\Local\Microsoft\WindowsApps;C:\JavaDev\tools\jvs-support-tools-4.4.5;C:\JavaDev\tools\apache-maven-3.3.9\bin;C:\JavaDev\tools\jboss-eap-6.4\bin;D:\Drivers;C:\JavaDev32\tools\jvs-support-tools-4.4.5;C:\JavaDev32\tools\apache-maven-3.3.9\bin;C:\JavaDev32\tools\jboss-eap-6.4\bin;C:\Users\a049473\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\a049473"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="user.name" value="a049473"/>
+    <property name="java.class.path" value="C:\JavaDev32\tools\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -P smoke"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes;C:\Program Files (x86)\HPE\Sprinter\bin\java_shared\classes;C:\Program Files (x86)\HPE\Sprinter\\bin\java_shared\classes\jasmine.jar"/>
+    <property name="sun.stderr.encoding" value="cp852"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\JavaDev32\tools\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp852"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="connectingToDataBase" classname="com.volvo.project.tests.TestSuiteExampleTest" time="2.783">
+    <failure message="ORA-01017: invalid username/password; logon denied&#10;" type="java.sql.SQLException">java.sql.SQLException: 
+ORA-01017: invalid username/password; logon denied
+
+	at com.volvo.project.tests.TestSuiteExampleTest.connectingToDataBase(TestSuiteExampleTest.java:39)
+</failure>
+    <system-out><![CDATA[test-screen directory is created
+2018-10-12 13:40:02 INFO  TestLog: HTTP @ pxgot4.srv.volvo.com/153.112.38.10:8080
+2018-10-12 13:40:02 INFO  TestLog: -------------------------------------------------------
+2018-10-12 13:40:02 INFO  TestLog: Execution of tests from TestSuiteExampleTest class started
+2018-10-12 13:40:02 INFO  TestLog: -------------------------------------------------------
+2018-10-12 13:40:02 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:40:02 INFO  TestLog: Test connectingToDataBase started
+2018-10-12 13:40:02 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 46367
+Only local connections are allowed.
+Oct 12, 2018 1:40:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="searchingInformationInLogs" classname="com.volvo.project.tests.TestSuiteExampleTest" time="25.676">
+    <failure message="\\segotx813.vcn.ds.volvo.net\wp1200_dsfs_1001_q1000m$\baldo\VLDGOT02_NODE01_BALDO\logs\baldo_app.log (The network path was not found)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: \\segotx813.vcn.ds.volvo.net\wp1200_dsfs_1001_q1000m$\baldo\VLDGOT02_NODE01_BALDO\logs\baldo_app.log (The network path was not found)
+	at com.volvo.project.tests.TestSuiteExampleTest.searchingInformationInLogs(TestSuiteExampleTest.java:65)
+</failure>
+    <system-out><![CDATA[2018-10-12 13:40:11 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:40:11 ERROR TestLog: Test connectingToDataBase finished --> FAILED
+2018-10-12 13:40:11 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:40:11 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:40:12 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:40:12 INFO  TestLog: Test searchingInformationInLogs started
+2018-10-12 13:40:12 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 1659
+Only local connections are allowed.
+Oct 12, 2018 1:40:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="sendingMessagesViaMQExplorer" classname="com.volvo.project.tests.TestSuiteExampleTest" time="3.216">
+    <failure message="\\segotx813.vcn.ds.volvo.net\wp1200_dsfs_1001_q1000m$\baldo\VLDGOT02_NODE01_BALDO\logs\baldo_app.log (The network path was not found)" type="java.io.FileNotFoundException">java.io.FileNotFoundException: \\segotx813.vcn.ds.volvo.net\wp1200_dsfs_1001_q1000m$\baldo\VLDGOT02_NODE01_BALDO\logs\baldo_app.log (The network path was not found)
+	at com.volvo.project.tests.TestSuiteExampleTest.sendingMessagesViaMQExplorer(TestSuiteExampleTest.java:31)
+</failure>
+    <system-out><![CDATA[2018-10-12 13:40:41 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:40:41 ERROR TestLog: Test searchingInformationInLogs finished --> FAILED
+2018-10-12 13:40:41 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:40:41 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:40:42 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:40:42 INFO  TestLog: Test sendingMessagesViaMQExplorer started
+2018-10-12 13:40:42 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:40:48 INFO  TestLog: Message sent to queue:///BALDO.TDI.DLR.IN
+2018-10-12 13:40:48 INFO  TestLog: Message Sent OK.
+
+2018-10-12 13:40:49 INFO  TestLog: 
+Received message: 
+  JMSMessage class: jms_text
+  JMSType:          null
+  JMSDeliveryMode:  2
+  JMSExpiration:    0
+  JMSPriority:      4
+  JMSMessageID:     ID:414d512047494d4c495f413120202020377db25b2ad1730a
+  JMSTimestamp:     1539247522861
+  JMSCorrelationID: CTDICorrelationPartner
+  JMSDestination:   queue:///BALDO.TDI.DLR.IN
+  JMSReplyTo:       queue://GIMLI_A1/AMQ.5BB27D37097FD12A?persistence=1
+  JMSRedelivered:   false
+    JMSXAppID: WebSphere MQ Client for Java
+    JMSXDeliveryCount: 1
+    JMSXUserID: cs-ws-s-bald
+    JMS_IBM_Character_Set: UTF-8
+    JMS_IBM_Encoding: 273
+    JMS_IBM_Format: MQSTR   
+    JMS_IBM_MsgType: 1
+    JMS_IBM_PutApplType: 28
+    JMS_IBM_PutDate: 20181011
+    JMS_IBM_PutTime: 08452288
+((DTDI00-02-01))DELCTDI    BALDO   20171011111342717V0C0111    62        216ZARRnKBill:"?>biss1      ...
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 20119
+Only local connections are allowed.
+Oct 12, 2018 1:40:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="12.106"/>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.422">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:41:06 INFO  TestLog: Test successfulLoginArrayDataProviderTest finished --> PASSED
+2018-10-12 13:41:06 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:41:06 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:41:07 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:41:07 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:41:07 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:41:24 INFO  TestLog: User tomsmith1 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 14630
+Only local connections are allowed.
+Oct 12, 2018 1:41:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="16.336">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:41:24 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:41:24 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:41:24 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:41:24 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:41:25 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:41:25 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:41:25 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:41:45 INFO  TestLog: User tomsmith2 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 9775
+Only local connections are allowed.
+Oct 12, 2018 1:41:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.737">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:41:45 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:41:45 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:41:45 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:41:45 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:41:46 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:41:46 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:41:46 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:42:05 INFO  TestLog: User tomsmith3 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 17184
+Only local connections are allowed.
+Oct 12, 2018 1:41:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.667">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:42:06 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:42:06 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:42:06 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:42:06 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:42:07 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:42:07 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:42:07 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:42:25 INFO  TestLog: User tomsmith4 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 46124
+Only local connections are allowed.
+Oct 12, 2018 1:42:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.545">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:42:26 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:42:26 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:42:26 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:42:26 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:42:26 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:42:26 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:42:26 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:42:45 INFO  TestLog: User tomsmith5 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 3466
+Only local connections are allowed.
+Oct 12, 2018 1:42:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.455">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:42:45 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:42:45 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:42:45 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:42:45 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:42:46 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:42:46 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:42:46 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:43:04 INFO  TestLog: User tomsmith6 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 21371
+Only local connections are allowed.
+Oct 12, 2018 1:42:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.781">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:43:04 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:43:04 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:43:04 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:43:04 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:43:05 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:43:05 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:43:05 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:43:23 INFO  TestLog: User tomsmith7 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 1286
+Only local connections are allowed.
+Oct 12, 2018 1:43:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.91">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:43:23 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:43:23 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:43:23 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:43:23 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:43:24 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:43:24 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:43:24 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:43:42 INFO  TestLog: User tomsmith8 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 26284
+Only local connections are allowed.
+Oct 12, 2018 1:43:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.917">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:43:42 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:43:42 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:43:42 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:43:42 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:43:43 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:43:43 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:43:43 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:00 INFO  TestLog: User tomsmith9 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 19834
+Only local connections are allowed.
+Oct 12, 2018 1:43:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.809">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:44:01 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:44:01 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:44:01 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:44:01 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:44:01 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:01 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:44:01 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:19 INFO  TestLog: User tomsmith10 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 32530
+Only local connections are allowed.
+Oct 12, 2018 1:44:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.878">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:44:20 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:44:20 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:44:20 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:44:20 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:44:21 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:21 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:44:21 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:38 INFO  TestLog: User tomsmith11 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 22700
+Only local connections are allowed.
+Oct 12, 2018 1:44:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.231">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:44:38 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:44:38 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:44:38 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:44:38 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:44:39 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:39 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:44:39 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:57 INFO  TestLog: User tomsmith12 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 19870
+Only local connections are allowed.
+Oct 12, 2018 1:44:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="successfulLoginArrayDataProviderTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.927">
+    <failure message="&#10;Expecting:&#10; &lt;false&gt;&#10;to be equal to:&#10; &lt;true&gt;&#10;but was not." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <false>
+to be equal to:
+ <true>
+but was not.
+	at com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest.successfulLoginArrayDataProviderTest(InternetTestSuiteDataProviderExampleLoginTest.java:24)
+]]></failure>
+    <system-out><![CDATA[2018-10-12 13:44:57 INFO  TestLog: Screenshot has been taken and saved in C:\tcoeGITRepo\selJava\tcoeFrameworkJava\target\test-screen\
+2018-10-12 13:44:57 ERROR TestLog: Test successfulLoginArrayDataProviderTest finished --> FAILED
+2018-10-12 13:44:57 INFO  TestLog: Test environment: uknownEnvironment
+2018-10-12 13:44:57 INFO  TestLog: <<<<<<<<<<<<<<<<<<<<<
+2018-10-12 13:44:58 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:44:58 INFO  TestLog: Test successfulLoginArrayDataProviderTest started
+2018-10-12 13:44:58 INFO  TestLog: >>>>>>>>>>>>>>>>>>>>>
+2018-10-12 13:45:17 INFO  TestLog: User tomsmith13 has not been authorized
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 43387
+Only local connections are allowed.
+Oct 12, 2018 1:45:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.376"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="15.092"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.403"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.961"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.831"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.606"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="13.907"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="19.808"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="15.867"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="14.537"/>
+  <testcase name="unsuccessLogiExcelDataProviderTabTest" classname="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest" time="20.464"/>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Tests]">
+  <listeners>
+    <listener class-name="com.volvo.project.components.XrayListener"/>
+  </listeners>
+  <test name="Smoke Tests on SauceLabs(failed)">
+    <classes>
+      <class name="com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest">
+        <methods>
+          <include name="successfulLoginArrayDataProviderTest" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11 12 13"/>
+          <include name="logEndTestExecutionAfterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="logStartTestExecutionBeforeMethod"/>
+          <include name="logEndTestExecutionAfterClass"/>
+          <include name="logStartTestExecutionBeforeClass"/>
+          <include name="logEndTestExecutionAfterSuite"/>
+        </methods>
+      </class> <!-- com.volvo.project.tests.InternetTestSuiteDataProviderExampleLoginTest -->
+      <class name="com.volvo.project.tests.TestSuiteExampleTest">
+        <methods>
+          <include name="logEndTestExecutionAfterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="logStartTestExecutionBeforeMethod"/>
+          <include name="logEndTestExecutionAfterClass"/>
+          <include name="connectingToDataBase"/>
+          <include name="logStartTestExecutionBeforeClass"/>
+          <include name="searchingInformationInLogs"/>
+          <include name="logEndTestExecutionAfterSuite"/>
+          <include name="sendingMessagesViaMQExplorer"/>
+        </methods>
+      </class> <!-- com.volvo.project.tests.TestSuiteExampleTest -->
+    </classes>
+  </test> <!-- Smoke Tests on SauceLabs(failed) -->
+</suite> <!-- Failed suite [Smoke Tests] -->
